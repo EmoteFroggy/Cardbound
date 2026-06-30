@@ -7,6 +7,7 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 1",
         "desc": "The debut issue of CoroCoro Comic, the magazine that would later become the single most influential publication in Pokémon history. It established the platform that helped launch Pokémon into a national phenomenon through its manga, promotions, exclusive content, and the mail-order release of Pokémon Blue.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/7MtUsA",
         "metadata": {
             "Release Date": "May, 1977"
         }
@@ -18,6 +19,7 @@ const timelineEvents = [
         "title": "Game Freak Magazine Issue No.1",
         "desc": "Marks the beginning of Game Freak and the partnership between Satoshi Tajiri and Ken Sugimori, laying the foundation for Pokémon.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "December, 1982",
             "Cover Date": "January, 1983"
@@ -30,6 +32,7 @@ const timelineEvents = [
         "title": "Login Magazine No. 8",
         "desc": "Gave Game Freak Magazine its first major public exposure, helping Tajiri build the connections that would eventually lead to Pokémon.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "August, 1983",
             "Pages": "153"
@@ -42,6 +45,7 @@ const timelineEvents = [
         "title": "Weekly Shōnen Sunday Zōkan (Special Edition) No. 7",
         "desc": "Contains Super Girl Namuko, Ken Sugimori's first known published manga. It offers a rare look at the future Pokémon art director's early creative work before joining Game Freak.",
         "tag": "Manga",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "July, 1984"
         }
@@ -53,6 +57,7 @@ const timelineEvents = [
         "title": "Weekly Shōnen Sunday No. 44",
         "desc": "Contains Dragon Blaster, another early one-shot manga by Ken Sugimori published before Pokémon. It showcases Sugimori's developing artistic style.",
         "tag": "Manga",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "1986"
         }
@@ -64,6 +69,7 @@ const timelineEvents = [
         "title": "Quinty Famicom Game",
         "desc": "Game Freak’s first video game, proving the studio could successfully develop commercial games and survive as a company.",
         "tag": "Video Game",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "1989"
         }
@@ -75,6 +81,7 @@ const timelineEvents = [
         "title": "Advertising Criticism No. 7",
         "desc": "Contains one of the earliest public hints at the secret project that would become Pokémon Red and Green.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "July, 1994",
             "Pages": "54-63"
@@ -87,6 +94,7 @@ const timelineEvents = [
         "title": "Design Site No. 74",
         "desc": "Features an early public mention of the Game Boy RPG project that would become Pokémon Red and Green.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "February, 1995",
             "Pages": "54-58"
@@ -99,6 +107,7 @@ const timelineEvents = [
         "title": "Weekly Famicom Magazine",
         "desc": "Contains the earliest known publicly sold Pokémon Game screenshot and print advertisement, giving fans their first look at the game.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "November 17, 1995",
             "Cover Date": "December 1, 1995",
@@ -112,6 +121,7 @@ const timelineEvents = [
         "title": "Famicom Space World Magazine",
         "desc": "Helped introduce Pokémon to attendees at Nintendo’s biggest event through some of its earliest published screenshots.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "November 22, 1995",
             "Pages": "10 & 28"
@@ -124,6 +134,7 @@ const timelineEvents = [
         "title": "Space World Flyer (Original Release Date)",
         "desc": "Widely considered the first publicly distributed Pokémon item and one of the earliest official showcases of Pokémon characters.",
         "tag": "Promo",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "November 22, 1995"
         }
@@ -135,6 +146,7 @@ const timelineEvents = [
         "title": "Design Site No. 79",
         "desc": "Documented Pokémon’s final pre-release period and preserved Tajiri’s vision for the series just before launch. Possibly the first public image of Pikachu ever released.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "November 27, 1995",
             "Cover Date": "December 5, 1995",
@@ -148,6 +160,7 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 364",
         "desc": "One of the earliest magazine references to Pokémon, documenting the game's original planned December 21, 1995 release date before its delay.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "December 8, 1995",
             "Page": "201"
@@ -160,6 +173,7 @@ const timelineEvents = [
         "title": "Family Computer Magazine No. 25",
         "desc": "An early pre-release feature that introduced Pokémon's core concepts of catching, trading, and evolving monsters to the public before launch.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "December 15, 1995",
             "Pages": "200"
@@ -172,6 +186,7 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 365",
         "desc": "Features some of the earliest official Pokémon artwork ever printed, making it one of the most important pre-launch Pokémon magazines.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "December 15, 1995",
             "Pages": "221"
@@ -184,6 +199,7 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 366",
         "desc": "One of the final magazine listings to advertise Pokémon's original December 21, 1995 release date before the game's postponement.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "December 22, 1995",
             "Pages": "177"
@@ -196,6 +212,7 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 367",
         "desc": "Contains the first known published announcement of Pokémon's delayed February 27, 1996 release date, marking the final major Pokémon magazine appearance of 1995.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "December 29, 1995",
             "Pages": "193"
@@ -208,6 +225,7 @@ const timelineEvents = [
         "title": "Red & Green Game Release Flyer (Revised Release Date)",
         "desc": "One of the earliest retail promotional pieces distributed after Pokémon’s launch delay was announced.",
         "tag": "Promo",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "January, 1996"
         }
@@ -219,6 +237,7 @@ const timelineEvents = [
         "title": "Dengeki RPG ’96 Special Issue",
         "desc": "Features one of the earliest major advertisements for Pokémon Red and Green on the back cover, marking the start of full-scale marketing.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "January 19, 1996",
             "Pages": "Back Cover"
@@ -231,6 +250,7 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 214",
         "desc": "The first CoroCoro issue to feature Pokémon, beginning the influential partnership that helped fuel the franchise’s rise.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "January 15, 1996",
             "Cover Date": "February 15, 1996",
@@ -244,6 +264,7 @@ const timelineEvents = [
         "title": "New Game Design: Ideas for TV Game Production (1st Edition)",
         "desc": "Preserves Satoshi Tajiri’s game design philosophy immediately before Pokémon’s release.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "January 25, 1996"
         }
@@ -255,6 +276,7 @@ const timelineEvents = [
         "title": "C&VG / Computer & Video Games #171",
         "desc": "Earliest confirmed English-language Pocket Monsters magazine reference found so far. UK magazine.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "February, 1996"
         }
@@ -266,6 +288,7 @@ const timelineEvents = [
         "title": "Family Computer Magazine No. 5",
         "desc": "Provided major pre-release coverage that helped introduce and legitimize Pokémon before launch.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "February 23, 1996",
             "Cover Date": "March 8, 1996",
@@ -279,6 +302,7 @@ const timelineEvents = [
         "title": "Pokémon Red & Green Games",
         "desc": "The original games in Japanese that launched the Pokémon franchise and introduced the world of Pokémon.",
         "tag": "Video Game",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "February 27, 1996"
         }
@@ -290,6 +314,7 @@ const timelineEvents = [
         "title": "CoroCoro Bessatsu Special No. 4",
         "desc": "Pokémon’s first expansion into manga and serialized storytelling ever.",
         "tag": "Manga",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "March, 1996",
             "Cover Date": "April, 1996",
@@ -303,6 +328,7 @@ const timelineEvents = [
         "title": "GameFan Vol. 4 #3",
         "desc": "Earliest confirmed U.S. magazine reference to Pokémon found to date.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "March, 1996",
             "Pages": "92"
@@ -315,6 +341,7 @@ const timelineEvents = [
         "title": "Weekly Famitsu Magazine No. 365",
         "desc": "One of the earliest major reviews of Pokémon, helping generate momentum during its early sales period.",
         "tag": "Publication",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
         "metadata": {
             "Release Date": "March 8, 1996",
             "Pages": "29"
@@ -331,7 +358,7 @@ let placedEvents = [];
 
 function renderTimeline() {
     placedEvents = [];
-    
+
     // Group events by year
     const byYear = {};
     timelineEvents.forEach(ev => {
@@ -341,13 +368,13 @@ function renderTimeline() {
 
     const content = document.getElementById('vt-content');
     if (!content) return;
-    
+
     let html = '';
 
     let navHtml = '';
 
     // Get min/max years
-    const activeYears = Object.keys(byYear).map(y => parseInt(y)).sort((a,b) => a - b);
+    const activeYears = Object.keys(byYear).map(y => parseInt(y)).sort((a, b) => a - b);
     const minYear = activeYears[0];
     const maxYear = activeYears[activeYears.length - 1];
 
@@ -366,7 +393,7 @@ function renderTimeline() {
                 </div>
                 <div class="vt-events-list">
         `;
-        
+
         events.forEach(ev => {
             const idx = placedEvents.length;
             html += `
@@ -390,7 +417,7 @@ function renderTimeline() {
             `;
             placedEvents.push(ev);
         });
-        
+
         html += `
                 </div>
             </div>
@@ -401,7 +428,7 @@ function renderTimeline() {
 
     // Attach click events for cards
     document.querySelectorAll('.vt-card').forEach(card => {
-        card.addEventListener('click', function() {
+        card.addEventListener('click', function () {
             openModal(this.getAttribute('data-index'));
         });
     });
@@ -411,12 +438,12 @@ function renderTimeline() {
     if (yearStrip) {
         yearStrip.innerHTML = navHtml;
         document.querySelectorAll('.vt-year-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
+            btn.addEventListener('click', function () {
                 const year = this.getAttribute('data-year');
                 const target = document.getElementById('year-' + year);
                 if (target) {
                     const y = target.getBoundingClientRect().top + window.scrollY - 100;
-                    window.scrollTo({top: y, behavior: 'smooth'});
+                    window.scrollTo({ top: y, behavior: 'smooth' });
                 }
             });
         });
@@ -429,7 +456,7 @@ function updateScrollProgress() {
         const winHeight = window.innerHeight;
         const docHeight = document.documentElement.scrollHeight;
         const scrollTop = window.scrollY;
-        
+
         let pct = 0;
         if (docHeight > winHeight) {
             pct = (scrollTop / (docHeight - winHeight)) * 100;
@@ -481,7 +508,7 @@ function openModal(idx) {
         ev.events.forEach(subEv => {
             let metaRows = '';
             if (subEv.metadata) {
-                Object.keys(subEv.metadata).forEach(function(k) {
+                Object.keys(subEv.metadata).forEach(function (k) {
                     metaRows += '<li class="vt-meta-item"><span class="vt-meta-label">' + k + '</span><span class="vt-meta-value">' + subEv.metadata[k] + '</span></li>';
                 });
             }
@@ -511,7 +538,7 @@ function openModal(idx) {
     } else {
         let metaRows = '';
         if (ev.metadata) {
-            Object.keys(ev.metadata).forEach(function(k) {
+            Object.keys(ev.metadata).forEach(function (k) {
                 metaRows += '<li class="vt-meta-item"><span class="vt-meta-label">' + k + '</span><span class="vt-meta-value">' + ev.metadata[k] + '</span></li>';
             });
         }
@@ -543,7 +570,7 @@ function closeModal() {
     document.body.style.overflow = '';
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     renderTimeline();
     updateScrollProgress();
 
@@ -555,7 +582,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backdrop = document.getElementById('vt-modal-close-bg');
     if (backdrop) backdrop.addEventListener('click', closeModal);
 
-    document.addEventListener('keydown', function(e) {
+    document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') closeModal();
     });
 
