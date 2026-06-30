@@ -378,7 +378,7 @@ function renderTimeline() {
                     ` : ''}
                     <div class="vt-event-card-col">
                         <div class="vt-card" data-index="${idx}">
-                            <span class="vt-card-icon"><img src="https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
+                            <span class="vt-card-icon"><img src="${ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
                             <div class="vt-card-info">
                                 <h3 class="vt-card-title">${ev.title}</h3>
                                 <span class="vt-card-tag">${ev.tag}</span>
@@ -488,7 +488,7 @@ function openModal(idx) {
             groupHtml += `
                 <div style="margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
                     <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1rem;">
-                        <span style="font-size: 3.5rem;"><img src="https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
+                        <span style="font-size: 3.5rem;"><img src="${subEv.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
                         <div>
                             <div style="color: var(--accent-cool); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">${subEv.date}</div>
                             <h3 style="font-family: var(--font-display); font-size: 2.2rem; margin: 0.2rem 0; color: var(--text-primary);">${subEv.title}</h3>
@@ -519,7 +519,7 @@ function openModal(idx) {
         body.innerHTML =
             '<div class="vt-modal-grid">' +
             '<div class="vt-modal-icon-wrap">' +
-            '<img src="https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png" alt="" style="width: 100%; height: auto; aspect-ratio: 2.5/3.5; object-fit: cover; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4);">' +
+            '<img src="' + (ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png') + '" alt="" style="width: 100%; height: auto; aspect-ratio: 2.5/3.5; object-fit: cover; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4);">' +
             '</div>' +
             '<div class="vt-modal-info">' +
             '<div class="date">' + ev.year + '</div>' +
