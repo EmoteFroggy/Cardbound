@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline — CardBound</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=9">
+</head>
+
+<body class="timeline-page">
+
+    <nav class="site-nav site-nav--solid" id="site-nav">
+        <a href="index.html" class="logo">CardBound</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="timeline.html" class="active">Timeline</a>
+            <a href="index.html#book" class="nav-cta">Get the Book</a>
+        </div>
+    </nav>
+
+    <main class="vt-main">
+        <!-- Holographic Foil Background -->
+        <div class="vt-holo-bg"></div>
+
+        <header class="vt-hero">
+            <p class="section-label">The Complete History</p>
+            <h1 class="section-heading">Pokémon Cards<br>Through Time</h1>
+        </header>
+
+        <div class="vt-container">
+            <!-- Content Container -->
+            <div id="vt-content" class="vt-content">
+                <!-- JS will inject Year Groups here -->
+            </div>
+        </div>
+
+        <section class="vt-outro">
+            <div class="section-inner" style="text-align: center;">
+                <h2 class="section-heading" style="font-size: 3rem; margin-bottom: 1rem;">Ready to go deeper?</h2>
+                <p class="section-desc" style="margin: 0 auto 2.5rem;">Watch the full documentary or grab the official
+                    coffee table book.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="index.html#watch" class="vt-btn vt-btn-primary">Watch the Doc</a>
+                    <a href="index.html#book" class="vt-btn vt-btn-ghost">Get the Book</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fixed bottom HUD: year strip for quick navigation -->
+        <div class="vt-hud" id="vt-hud">
+            <div class="vt-year-nav" id="vt-year-strip"></div>
+        </div>
+    </main>
+
+    <!-- Detail Modal -->
+    <div class="vt-modal" id="vt-modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="vt-modal-backdrop" id="vt-modal-close-bg"></div>
+        <div class="vt-modal-content">
+            <button class="vt-modal-close" id="vt-modal-close" aria-label="Close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </button>
+            <div class="vt-modal-body" id="vt-modal-body"></div>
+        </div>
+    </div>
+
+    <script src="timeline.js?v=9"></script>
+</body>
+
+</html>
