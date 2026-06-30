@@ -346,11 +346,16 @@ function renderTimeline() {
 
     let navHtml = '';
 
-    // Sort and get min/max years
-    const sortedYears = Object.keys(byYear).map(y => parseInt(y)).sort((a,b) => a - b);
+    // Get min/max years
+    const activeYears = Object.keys(byYear).map(y => parseInt(y)).sort((a,b) => a - b);
+    const minYear = activeYears[0];
+    const maxYear = activeYears[activeYears.length - 1];
 
-    for (const year of sortedYears) {
+    for (const year of activeYears) {
         navHtml += `<button class="vt-year-btn" data-year="${year}">${year}</button>`;
+    }
+
+    for (let year = minYear; year <= maxYear; year++) {
         const events = byYear[year] || [];
         html += `
             <div class="vt-year-section" id="year-${year}" data-year="${year}">
