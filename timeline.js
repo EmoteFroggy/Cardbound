@@ -342,28 +342,6 @@ function renderTimeline() {
     const content = document.getElementById('vt-content');
     if (!content) return;
     
-];
-
-/* ============================================================
-   VERTICAL TIMELINE ENGINE v10
-   No JS positioning math needed. Fully CSS grid and flexbox.
-   ============================================================ */
-
-let placedEvents = [];
-
-function renderTimeline() {
-    placedEvents = [];
-    
-    // Group events by year
-    const byYear = {};
-    timelineEvents.forEach(ev => {
-        if (!byYear[ev.year]) byYear[ev.year] = [];
-        byYear[ev.year].push(ev);
-    });
-
-    const content = document.getElementById('vt-content');
-    if (!content) return;
-    
     let html = '';
 
     let navHtml = '';
