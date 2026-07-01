@@ -7,7 +7,7 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 1",
         "desc": "The debut issue of CoroCoro Comic, the magazine that would later become the single most influential publication in Pokémon history. It established the platform that helped launch Pokémon into a national phenomenon through its manga, promotions, exclusive content, and the mail-order release of Pokémon Blue.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/7MtUsA",
         "metadata": {
             "Release Date": "May, 1977"
         }
@@ -19,7 +19,7 @@ const timelineEvents = [
         "title": "Game Freak Magazine Issue No.1",
         "desc": "Marks the beginning of Game Freak and the partnership between Satoshi Tajiri and Ken Sugimori, laying the foundation for Pokémon.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/opSFM.png",
         "metadata": {
             "Release Date": "December, 1982",
             "Cover Date": "January, 1983"
@@ -32,7 +32,8 @@ const timelineEvents = [
         "title": "Login Magazine No. 8",
         "desc": "Gave Game Freak Magazine its first major public exposure, helping Tajiri build the connections that would eventually lead to Pokémon.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/2BeRW.png",
+        "image2": "https://i.nuuls.com/Om-NG.png",
         "metadata": {
             "Release Date": "August, 1983",
             "Pages": "153"
@@ -45,7 +46,7 @@ const timelineEvents = [
         "title": "Weekly Shōnen Sunday Zōkan (Special Edition) No. 7",
         "desc": "Contains Super Girl Namuko, Ken Sugimori's first known published manga. It offers a rare look at the future Pokémon art director's early creative work before joining Game Freak",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/U6d7O.png",
         "metadata": {
             "Release Date": "July, 1984"
         }
@@ -57,7 +58,7 @@ const timelineEvents = [
         "title": "Weekly Shōnen Sunday No. 44",
         "desc": "Contains Dragon Blaster, another early one-shot manga by Ken Sugimori published before Pokémon. It showcases Sugimori's developing artistic style",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/6o2Vb.png",
         "metadata": {
             "Release Date": "1986"
         }
@@ -69,7 +70,7 @@ const timelineEvents = [
         "title": "Quinty Famicom Game",
         "desc": "Game Freak’s first video game, proving the studio could successfully develop commercial games and survive as a company.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/MHcru.png",
         "metadata": {
             "Release Date": "1989"
         }
@@ -81,7 +82,18 @@ const timelineEvents = [
         "title": "Advertising Criticism No. 7",
         "desc": "Contains one of the earliest public hints at the secret project that would become Pokémon Red and Green.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/QQN8C.png",
+        "image2": "https://i.nuuls.com/Cgacv.png",
+        "image3": "https://i.nuuls.com/hE4rq.png",
+        "image4": "https://i.nuuls.com/ESvtN.png",
+        "image5": "https://i.nuuls.com/xP6W4.png",
+        "image6": "https://i.nuuls.com/gvRRe.png",
+        "image7": "https://i.nuuls.com/7qREL.png",
+        "image8": "https://i.nuuls.com/S9l_J.png",
+        "image9": "https://i.nuuls.com/tR9Rx.png",
+        "image10": "https://i.nuuls.com/Yj8w4.png",
+        "image11": "https://i.nuuls.com/bVjWW.png",
+
         "metadata": {
             "Release Date": "July, 1994",
             "Pages": "54-63"
@@ -94,7 +106,14 @@ const timelineEvents = [
         "title": "Design Site No. 74",
         "desc": "Features an early public mention of the Game Boy RPG project that would become Pokémon Red and Green.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/Gujd7.png",
+        "image2": "https://i.nuuls.com/urrrW.png",
+        "image3": "https://i.nuuls.com/uzGH0.png",
+        "image4": "https://i.nuuls.com/xbSvd.png",
+        "image5": "https://i.nuuls.com/n7GdA.png",
+        "image6": "https://i.nuuls.com/o3jxv.png",
+
+
         "metadata": {
             "Release Date": "February, 1995",
             "Pages": "54-58"
@@ -107,7 +126,8 @@ const timelineEvents = [
         "title": "Weekly Famicom Magazine",
         "desc": "Contains the earliest known publicly sold Pokémon Game screenshot and print advertisement, giving fans their first look at the game.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/tM3hW.png",
+        "image2": "https://i.nuuls.com/eh7Y4.png",
         "metadata": {
             "Release Date": "November 17, 1995",
             "Cover Date": "December 1, 1995",
@@ -121,7 +141,9 @@ const timelineEvents = [
         "title": "Famicom Space World Magazine",
         "desc": "Helped introduce Pokémon to attendees at Nintendo’s biggest event through some of its earliest published screenshots.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/tlI8r.png",
+        "image2": "https://i.nuuls.com/61xKm.png",
+        "image3": "https://i.nuuls.com/E_vQr.png",
         "metadata": {
             "Release Date": "November 22, 1995",
             "Pages": "10 & 28"
@@ -1205,7 +1227,6 @@ function openModal(idx) {
                     <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1rem;">
                         <span style="font-size: 3.5rem;"><img src="${subEv.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
                         <div>
-                            <div style="color: var(--accent-cool); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">${subEv.date}</div>
                             <h3 style="font-family: var(--font-display); font-size: 2.2rem; margin: 0.2rem 0; color: var(--text-primary);">${subEv.title}</h3>
                         </div>
                     </div>
@@ -1231,13 +1252,41 @@ function openModal(idx) {
             });
         }
 
+        let images = [];
+        if (ev.image) images.push(ev.image);
+        else images.push('https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png');
+
+        let i = 2;
+        while (ev['image' + i]) {
+            images.push(ev['image' + i]);
+            i++;
+        }
+
+        window.currentModalImages = images;
+        window.currentModalImageIndex = 0;
+        window.isModalImageAnimating = false;
+
+        // Preload images to eliminate delay
+        images.forEach(src => {
+            const preload = new Image();
+            preload.src = src;
+        });
+
+        let nextBtn = '';
+        let prevBtn = '';
+        if (images.length > 1) {
+            nextBtn = '<button id="vt-modal-next-btn" onclick="nextModalImage()" style="position:absolute; top:50%; right:-47px; transform:translateY(-50%); width:35px; height:35px; border-radius:50%; background:#000; color:#fff; border:1px solid #fff; font-size:20px; font-weight:bold; cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.5); z-index:10; display:flex; align-items:center; justify-content:center; padding:0; line-height:1; transition: background 0.2s;">&rarr;</button>';
+            prevBtn = '<button id="vt-modal-prev-btn" onclick="prevModalImage()" style="position:absolute; top:50%; left:-47px; transform:translateY(-50%); width:35px; height:35px; border-radius:50%; background:#000; color:#fff; border:1px solid #fff; font-size:20px; font-weight:bold; cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.5); z-index:10; display:none; align-items:center; justify-content:center; padding:0; line-height:1; transition: background 0.2s;">&larr;</button>';
+        }
+
         body.innerHTML =
             '<div class="vt-modal-grid">' +
-            '<div class="vt-modal-icon-wrap">' +
-            '<img src="' + (ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png') + '" alt="" style="width: 100%; height: auto; aspect-ratio: 2.5/3.5; object-fit: cover; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4);">' +
+            '<div class="vt-modal-icon-wrap" style="position: relative; perspective: 1000px;">' +
+            prevBtn +
+            '<img id="vt-modal-img" src="' + window.currentModalImages[0] + '" alt="" style="width: 100%; height: auto; aspect-ratio: 2.5/3.5; object-fit: cover; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); transform-style: preserve-3d;">' +
+            nextBtn +
             '</div>' +
             '<div class="vt-modal-info">' +
-            '<div class="date">' + ev.year + '</div>' +
             '<h2 class="title">' + ev.title + '</h2>' +
             (metaRows ? '<ul class="vt-modal-meta">' + metaRows + '</ul>' : '') +
             '<p class="desc">' + ev.desc + '</p>' +
@@ -1249,6 +1298,75 @@ function openModal(idx) {
     modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
 }
+
+window.nextModalImage = function () {
+    if (!window.currentModalImages || window.currentModalImages.length <= 1) return;
+    if (window.isModalImageAnimating) return;
+    if (window.currentModalImageIndex < window.currentModalImages.length - 1) {
+        window.currentModalImageIndex++;
+        updateModalImage(1);
+    }
+};
+
+window.prevModalImage = function () {
+    if (!window.currentModalImages || window.currentModalImages.length <= 1) return;
+    if (window.isModalImageAnimating) return;
+    if (window.currentModalImageIndex > 0) {
+        window.currentModalImageIndex--;
+        updateModalImage(-1);
+    }
+};
+
+window.updateModalImage = function (direction = 1) {
+    const img = document.getElementById('vt-modal-img');
+    const prevBtn = document.getElementById('vt-modal-prev-btn');
+    const nextBtn = document.getElementById('vt-modal-next-btn');
+
+    if (img) {
+        window.isModalImageAnimating = true;
+
+        let outDeg = direction === 1 ? '90deg' : '-90deg';
+        let inDeg = direction === 1 ? '-90deg' : '90deg';
+
+        // Flip out
+        img.style.transition = 'transform 0.25s ease-in';
+        img.style.transform = `rotateY(${outDeg})`;
+
+        // Ensure no backface flickering
+        img.style.backfaceVisibility = 'hidden';
+
+        setTimeout(() => {
+            img.src = window.currentModalImages[window.currentModalImageIndex];
+
+            // Turn off transition temporarily to snap
+            img.style.transition = 'none';
+            img.style.transform = `rotateY(${inDeg})`;
+
+            // Force browser reflow so it registers the snap position without animating it
+            void img.offsetWidth;
+
+            // Turn transition back on and flip in
+            img.style.transition = 'transform 0.25s ease-out';
+            img.style.transform = 'rotateY(0deg)';
+
+            setTimeout(() => {
+                window.isModalImageAnimating = false;
+            }, 260); // slightly longer than 250ms to ensure completion
+        }, 250); // wait for 250ms ease-in to complete
+
+        if (window.currentModalImageIndex === 0) {
+            if (prevBtn) prevBtn.style.display = 'none';
+        } else {
+            if (prevBtn) prevBtn.style.display = 'flex';
+        }
+
+        if (window.currentModalImageIndex === window.currentModalImages.length - 1) {
+            if (nextBtn) nextBtn.style.display = 'none';
+        } else {
+            if (nextBtn) nextBtn.style.display = 'flex';
+        }
+    }
+};
 
 function closeModal() {
     const modal = document.getElementById('vt-modal');
@@ -1273,5 +1391,4 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') closeModal();
     });
-
 });
