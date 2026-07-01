@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
     video.style.pointerEvents = 'none';
     video.style.mixBlendMode = 'screen';
 
-    // More subtle opacity
-    video.style.opacity = '0.15';
+    // More subtle opacity by default
+    video.style.opacity = '0.25';
 
     // CSS filter to colorize the white dust into a light pastel yellow
     video.style.filter = 'sepia(1) saturate(3) hue-rotate(5deg) brightness(1.2)';
@@ -23,12 +23,18 @@ document.addEventListener('DOMContentLoaded', function () {
     video.autoplay = true;
     video.setAttribute('playsinline', '');
 
-    // Slow down playback to 0.75 (going too low causes the frames to stutter)
+    // Slow down playback to 0.70 (going too low causes the frames to stutter)
     video.playbackRate = 0.70;
+
+    // Apply main page specific adjustments
+    if (document.body.classList.contains('home-page')) {
+        video.style.opacity = '0.12'; // More transparent
+        video.playbackRate = 0.55; // Slower
+    }
 
     // Loop the first 14 seconds
     video.addEventListener('timeupdate', () => {
-        if (video.currentTime >= 30) {
+        if (video.currentTime >= 15) {
             video.currentTime = 0;
             video.play().catch(e => { });
         }

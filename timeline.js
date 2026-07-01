@@ -82,17 +82,19 @@ const timelineEvents = [
         "title": "Advertising Criticism No. 7",
         "desc": "Contains one of the earliest public hints at the secret project that would become Pokémon Red and Green.",
         "tag": "Event",
-        "image": "https://i.nuuls.com/QQN8C.png",
-        "image2": "https://i.nuuls.com/Cgacv.png",
+        "image": "https://i.nuuls.com/hNMCX.png",
+        "image2": "https://i.nuuls.com/WUk-E.png",
         "image3": "https://i.nuuls.com/hE4rq.png",
-        "image4": "https://i.nuuls.com/ESvtN.png",
-        "image5": "https://i.nuuls.com/xP6W4.png",
-        "image6": "https://i.nuuls.com/gvRRe.png",
-        "image7": "https://i.nuuls.com/7qREL.png",
-        "image8": "https://i.nuuls.com/S9l_J.png",
-        "image9": "https://i.nuuls.com/tR9Rx.png",
-        "image10": "https://i.nuuls.com/Yj8w4.png",
-        "image11": "https://i.nuuls.com/bVjWW.png",
+        "image4": "https://i.nuuls.com/iwmjO.png",
+        "image5": "https://i.nuuls.com/IlUhu.png",
+        "image6": "https://i.nuuls.com/ad2eG.png",
+        "image7": "https://i.nuuls.com/kUdGv.png",
+        "image8": "https://i.nuuls.com/fp-yr.png",
+        "image9": "https://i.nuuls.com/zt56x.png",
+        "image10": "https://i.nuuls.com/60Zll.png",
+        "image11": "https://i.nuuls.com/sVfHi.png",
+        "image12": "https://i.nuuls.com/FtvQH.png",
+
 
         "metadata": {
             "Release Date": "July, 1994",
@@ -106,12 +108,12 @@ const timelineEvents = [
         "title": "Design Site No. 74",
         "desc": "Features an early public mention of the Game Boy RPG project that would become Pokémon Red and Green.",
         "tag": "Event",
-        "image": "https://i.nuuls.com/Gujd7.png",
-        "image2": "https://i.nuuls.com/urrrW.png",
-        "image3": "https://i.nuuls.com/uzGH0.png",
-        "image4": "https://i.nuuls.com/xbSvd.png",
-        "image5": "https://i.nuuls.com/n7GdA.png",
-        "image6": "https://i.nuuls.com/o3jxv.png",
+        "image": "https://i.nuuls.com/86FMV.png",
+        "image2": "https://i.nuuls.com/XLxF4.png",
+        "image3": "https://i.nuuls.com/RbE16.png",
+        "image4": "https://i.nuuls.com/bZ9qE.png",
+        "image5": "https://i.nuuls.com/ZfEQE.png",
+        "image6": "https://i.nuuls.com/OOt2M.png",
 
 
         "metadata": {
@@ -156,7 +158,7 @@ const timelineEvents = [
         "title": "Space World Flyer (Original Release Date)",
         "desc": "Widely considered the first publicly distributed Pokémon item and one of the earliest official showcases of Pokémon characters.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/huuWD.png",
         "metadata": {
             "Release Date": "November 22, 1995"
         }
@@ -168,7 +170,8 @@ const timelineEvents = [
         "title": "Design Site No. 79",
         "desc": "Documented Pokémon’s final pre-release period and preserved Tajiri’s vision for the series just before launch. Possibly the first public image of Pikachu ever released.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/IylMr.png",
+        "image2": "https://i.nuuls.com/fDY5K.png",
         "metadata": {
             "Release Date": "November 27, 1995",
             "Cover Date": "December 5, 1995",
@@ -182,7 +185,8 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 364",
         "desc": "One of the earliest magazine references to Pokémon, documenting the game's original planned December 21, 1995 release date before its delay.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/eBak_.png",
+        "image2": "https://i.nuuls.com/tx8mq.png",
         "metadata": {
             "Release Date": "December 8, 1995",
             "Page": "201"
@@ -195,7 +199,7 @@ const timelineEvents = [
         "title": "Family Computer Magazine No. 25",
         "desc": "An early pre-release feature that introduced Pokémon's core concepts of catching, trading, and evolving monsters to the public before launch.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/aLUkE.png",
         "metadata": {
             "Release Date": "December 15, 1995",
             "Pages": "200"
@@ -208,7 +212,8 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 365",
         "desc": "Features some of the earliest official Pokémon artwork ever printed, making it one of the most important pre-launch Pokémon magazines.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/Y-c7b.png",
+        "image2": "https://i.nuuls.com/PC89Z.png",
         "metadata": {
             "Release Date": "December 15, 1995",
             "Pages": "221"
@@ -221,7 +226,8 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 366",
         "desc": "One of the final magazine listings to advertise Pokémon's original December 21, 1995 release date before the game's postponement.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/M052H.png",
+        "image2": "https://i.nuuls.com/ZrdYz.png",
         "metadata": {
             "Release Date": "December 22, 1995",
             "Pages": "177"
@@ -234,7 +240,8 @@ const timelineEvents = [
         "title": "Weekly Famicom Tsūshin Magazine No. 367",
         "desc": "Contains the first known published announcement of Pokémon's delayed February 27, 1996 release date, marking the final major Pokémon magazine appearance of 1995.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/rKrMj.png",
+        "image2": "https://i.nuuls.com/krIrw.png",
         "metadata": {
             "Release Date": "December 29, 1995",
             "Pages": "193"
@@ -247,7 +254,7 @@ const timelineEvents = [
         "title": "Red & Green Game Release Flyer (Revised Release Date)",
         "desc": "One of the earliest retail promotional pieces distributed after Pokémon’s launch delay was announced.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/-q8M6.png",
         "metadata": {
             "Release Date": "January, 1996"
         }
@@ -259,7 +266,8 @@ const timelineEvents = [
         "title": "Dengeki RPG ’96 Special Issue",
         "desc": "Features one of the earliest major advertisements for Pokémon Red and Green on the back cover, marking the start of full-scale marketing.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/pG-Q1.png",
+        "image2": "https://i.nuuls.com/fg7bk.png",
         "metadata": {
             "Release Date": "January 19, 1996",
             "Pages": "Back Cover"
@@ -272,7 +280,8 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 214",
         "desc": "The first CoroCoro issue to feature Pokémon, beginning the influential partnership that helped fuel the franchise’s rise.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/xM_cI.png",
+        "image2": "https://i.nuuls.com/1IEcE.png",
         "metadata": {
             "Release Date": "January 15, 1996",
             "Cover Date": "February 15, 1996",
@@ -286,7 +295,7 @@ const timelineEvents = [
         "title": "New Game Design: Ideas for TV Game Production (1st Edition)",
         "desc": "Preserves Satoshi Tajiri’s game design philosophy immediately before Pokémon’s release.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/uME-7.png",
         "metadata": {
             "Release Date": "January 25, 1996"
         }
@@ -298,7 +307,7 @@ const timelineEvents = [
         "title": "C&VG / Computer & Video Games #171",
         "desc": "Earliest confirmed English-language Pocket Monsters magazine reference found so far. UK magazine.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/CssNP.png",
         "metadata": {
             "Release Date": "February, 1996"
         }
@@ -310,7 +319,12 @@ const timelineEvents = [
         "title": "Family Computer Magazine No. 5",
         "desc": "Provided major pre-release coverage that helped introduce and legitimize Pokémon before launch.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/3tjV2.png",
+        "image2": "https://i.nuuls.com/A0Zz3.png",
+        "image3": "https://i.nuuls.com/9A9GZ.png",
+        "image4": "https://i.nuuls.com/J-KXe.png",
+        "image5": "https://i.nuuls.com/LOnQo.png",
+        "image6": "https://i.nuuls.com/hCVNh.png",
         "metadata": {
             "Release Date": "February 23, 1996",
             "Cover Date": "March 8, 1996",
@@ -324,7 +338,7 @@ const timelineEvents = [
         "title": "Pokémon Red & Green Games",
         "desc": "The original games in Japanese that launched the Pokémon franchise and introduced the world of Pokémon.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/j3lhz.png",
         "metadata": {
             "Release Date": "February 27, 1996"
         }
@@ -336,7 +350,7 @@ const timelineEvents = [
         "title": "CoroCoro Bessatsu Special No. 4",
         "desc": "Pokémon’s first expansion into manga and serialized storytelling ever.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/lklDw.png",
         "metadata": {
             "Release Date": "March, 1996",
             "Cover Date": "April, 1996",
@@ -350,7 +364,7 @@ const timelineEvents = [
         "title": "GameFan Vol. 4 #3",
         "desc": "Earliest confirmed U.S. magazine reference to Pokémon found to date..",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/miYNy.png",
         "metadata": {
             "Release Date": "March, 1996",
             "Pages": "92"
@@ -363,7 +377,8 @@ const timelineEvents = [
         "title": "Weekly Famitsu Magazine No. 365",
         "desc": "One of the earliest major reviews of Pokémon, helping generate momentum during its early sales period.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/LnQ4I.png",
+        "image2": "https://i.nuuls.com/nC-cU.png",
         "metadata": {
             "Release Date": "March 8, 1996",
             "Pages": "29"
@@ -374,13 +389,14 @@ const timelineEvents = [
         "year": "1996",
         "date": "February 15, 1996",
         "title": "CoroCoro Comic No. 215",
-        "desc": "",
+        "desc": "Introduced readers to Pokémon Red & Green right at launch, explaining the core formula, choosing starters, catching Pokémon, completing the Pokédex, battling, trading, and version differences",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/ijFN6.png",
+        "image2": "https://i.nuuls.com/S_Fng.png",
+        "image3": "https://i.nuuls.com/WZ3m3.png",
         "metadata": {
             "Release Date": "February 15, 1996",
-            "Cover Date": "March 15, 1996",
-            "Introduced readers to Pokémon Red & Green right at launch, explaining the core formula": "choosing starters, catching Pokémon, completing the Pokédex, battling, trading, and version differences."
+            "Cover Date": "March 15, 1996"
         }
     },
     {
@@ -402,7 +418,9 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 216",
         "desc": "Helped new players learn Pokémon through one of the franchise’s earliest strategy guides.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/nMcmh.png",
+        "image2": "https://i.nuuls.com/B9ed-.png",
+        "image3": "https://i.nuuls.com/Dzmr_.png",
         "metadata": {
             "Release Date": "March 15, 1996",
             "Cover Date": "April 15, 1996"
@@ -415,7 +433,7 @@ const timelineEvents = [
         "title": "Illustrated Book of Pocket Monsters",
         "desc": "One of the first dedicated Pokémon books, expanding the franchise beyond the video games.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/nlsH4.png",
         "metadata": {
             "Release Date": "April 5, 1996"
         }
@@ -427,7 +445,16 @@ const timelineEvents = [
         "title": "Family Computer Magazine No. 7",
         "desc": "Captures the moment Pokémon evolved from a new release into a rapidly growing player-driven phenomenon through dedicated articles and art.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/D5nD1.png",
+        "image2": "https://i.nuuls.com/sEP-_.png",
+        "image3": "https://i.nuuls.com/5OSVS.png",
+        "image4": "https://i.nuuls.com/FiTgF.png",
+        "image5": "https://i.nuuls.com/eUHT6.png",
+        "image6": "https://i.nuuls.com/cY2C4.png",
+        "image7": "https://i.nuuls.com/ZZi4n.png",
+        "image8": "https://i.nuuls.com/g4QJB.png",
+        "image9": "https://i.nuuls.com/haU6Y.png",
+
         "metadata": {
             "Release Date": "April 5, 1996",
             "Pages": "58-61, 96-98, & 128"
@@ -440,7 +467,7 @@ const timelineEvents = [
         "title": "Pokémon Red, Green, & Blue Nintendo Official Gameboy Guide Book",
         "desc": "One of the earliest official Pokémon books and first standalone game guide book, helping establish strategy guides and companion publications as a key part of the growing franchise.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/JRQKa.png",
         "metadata": {
             "Release Date": "April 10, 1996"
         }
@@ -452,7 +479,8 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 217",
         "desc": "Introduced Mew through a giveaway campaign, proving Pokémon’s breakout popularity and creating the legend of rare event Pokémon.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/4A0Fp.png",
+        "image2": "https://i.nuuls.com/NFk5A.png",
         "metadata": {
             "Release Date": "April 15, 1996",
             "Cover Date": "May 15, 1996",
@@ -466,7 +494,8 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 218",
         "desc": "Shows Pokémon steadily gaining momentum through expanding media and merchandise coverage.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/sbQEg.png",
+        "image2": "https://i.nuuls.com/P95uu.png",
         "metadata": {
             "Release Date": "May 15, 1996",
             "Cover Date": "June 15, 1996",
@@ -480,7 +509,10 @@ const timelineEvents = [
         "title": "Family Computer Magazine No. 13",
         "desc": "Features an early interview with Tajiri and Sugimori as Pokémon began transforming into a national phenomenon.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/i6DKp.png",
+        "image2": "https://i.nuuls.com/zz5Fj.png",
+        "image3": "https://i.nuuls.com/SarrK.png",
+        "image4": "https://i.nuuls.com/eatkk.png",
         "metadata": {
             "Release Date": "June 28, 1996",
             "Pages": "56-58"
@@ -493,7 +525,9 @@ const timelineEvents = [
         "title": "Weekly Famitsu Magazine No. 394",
         "desc": "Article documenting how collecting, trading, and word-of-mouth helped drive Pokémon’s early success.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/5Q-OW.png",
+        "image2": "https://i.nuuls.com/I5IqC.png",
+        "image3": "https://i.nuuls.com/2ZpFI.png",
         "metadata": {
             "Release Date": "June 28, 1996",
             "Pages": "58-59"
@@ -503,10 +537,10 @@ const timelineEvents = [
         "id": 38,
         "year": "1996",
         "date": "~June 1996",
-        "title": "Pokémon Club Part One (CHANGE THE PICTURE)",
+        "title": "Pokémon Club Part One",
         "desc": "Likely the earliest officially licensed Pokémon toy, sticker and food, released before the TCG boom.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/6NbuO.png",
         "metadata": {
             "Release Date": "~June 1996"
         }
@@ -518,7 +552,7 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 219",
         "desc": "Shows Pokémon’s rapid expansion from a video game into a broader merchandise and media franchise.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/3F9Xw.png",
         "metadata": {
             "Release Date": "June 15, 1996",
             "Cover Date": "July 15, 1996",
@@ -529,10 +563,10 @@ const timelineEvents = [
         "id": 40,
         "year": "1996",
         "date": "June, 1996",
-        "title": "Pokémon Capsule Figures (CHANGE THE PICTURE)",
+        "title": "Pokémon Capsule Figures",
         "desc": "Among the earliest Pokémon toys, bringing the franchise into physical collectible form.",
         "tag": "Merchandise",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/qk2bm.png",
         "metadata": {
             "Release Date": "June, 1996"
         }
@@ -544,7 +578,8 @@ const timelineEvents = [
         "title": "Prototype Pokémon TCG Cards",
         "desc": "Unreleased Prototypes of Pokémon TCG cards that represent the earliest known stage of the Trading Card Game's development.",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/Opwaa.png",
+        "image2": "https://i.nuuls.com/JDTco.png",
         "metadata": {
             "Release Date": "~July, 1996"
         }
@@ -556,7 +591,8 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 220",
         "desc": "Featured the first public preview of prototype Pokémon Trading Card Game cards.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/8yG-U.png",
+        "image2": "https://i.nuuls.com/zShpF.png",
         "metadata": {
             "Release Date": "July 15, 1996",
             "Cover Date": "August 15, 1996",
@@ -570,7 +606,7 @@ const timelineEvents = [
         "title": "Pokémon Snack Sticker Part One",
         "desc": "Demonstrates how quickly Pokémon expanded into mainstream consumer products after launch.",
         "tag": "Merchandise",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/uBAaI.png",
         "metadata": {
             "Release Date": "~July-August, 1996"
         }
@@ -582,7 +618,7 @@ const timelineEvents = [
         "title": "Pokémon 4Koma DX Manga",
         "desc": "One of the earliest standalone Pokémon manga books, expanding the franchise beyond games and into printed comedy content",
         "tag": "Manga",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/VQ1mE.png",
         "metadata": {
             "Release Date": "August 1, 1996"
         }
@@ -594,7 +630,7 @@ const timelineEvents = [
         "title": "Famitsu Bros. Vol. 4, Issue 9",
         "desc": "Contains the only known Pokémon manga illustrated by Ken Sugimori, making it a unique crossover between Pokémon's lead artist and the franchise's early print history. Advertised a Mew capture event.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/p_-7Y.png",
         "metadata": {
             "Release Date": "August, 1996",
             "Cover Date": "September, 1996"
@@ -607,7 +643,8 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 221",
         "desc": "Helped introduce and prepare fans for the launch of the Pokémon Trading Card Game.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/ViFGD.png",
+        "image2": "https://i.nuuls.com/LLOuU.png",
         "metadata": {
             "Release Date": "August 15, 1996",
             "Cover Date": "September 15, 1996",
@@ -618,10 +655,14 @@ const timelineEvents = [
         "id": 47,
         "year": "1996",
         "date": "July-August, 1996",
-        "title": "Pokémon Bandai Carddass W Jumbo Cards & Stickers (CHANGE NAME)",
+        "title": "Pokémon Bandai Carddass Jumbo Cards & Stickers",
         "desc": "Among the earliest Pokémon card-style collectibles released before the main Carddass sets (not TCG).",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/yhTSP.png",
+        "image2": "https://i.nuuls.com/HXEvq.png",
+        "image3": "https://i.nuuls.com/FJpUr.png",
+        "image4": "https://i.nuuls.com/dCdlW.png",
+        "image5": "https://i.nuuls.com/pkICv.png",
         "metadata": {
             "Release Date": "July-August, 1996"
         }
@@ -630,10 +671,10 @@ const timelineEvents = [
         "id": 48,
         "year": "1996",
         "date": "September, 1996",
-        "title": "Famitsu Bros. Vol. 4, Issue 10 (MOVED BACK A FEW SPOTS)",
+        "title": "Famitsu Bros. Vol. 4, Issue 10",
         "desc": "Includes a Pokémon manga, \"Purin's Great Adventure,\" and teases a sequel on the way. It captures Pokémon's earliest hype, just months after Red/Green launched, right as the franchise began its rise into a global phenomenon.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/g8vBP.png",
         "metadata": {
             "Release Date": "September, 1996",
             "Cover Date": "October, 1996"
@@ -646,7 +687,7 @@ const timelineEvents = [
         "title": "Pokémon Tomy Batomen Discs",
         "desc": "Pokémon toy collectible game that helped establish the franchise's presence in the toy market before the launch of the Pokémon TCG.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/8sxLn.png",
         "metadata": {
             "Release Date": "~September, 1996"
         }
@@ -658,7 +699,10 @@ const timelineEvents = [
         "title": "Famimaga 64 Magazine No. 4-5",
         "desc": "Contains one of the earliest public discussions of the sequel project that became Pokémon Gold and Silver.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/FRu6V.png",
+        "image2": "https://i.nuuls.com/M9ARA.png",
+        "image3": "https://i.nuuls.com/AY62j.png",
+        "image4": "https://i.nuuls.com/k6inQ.png",
         "metadata": {
             "Release Date": "August 23 & September 6, 1996 Combined Issue",
             "Pages": "30-31, & 33"
@@ -668,10 +712,10 @@ const timelineEvents = [
         "id": 51,
         "year": "1996",
         "date": "July-September, 1996",
-        "title": "Pokémon Bandai Carddass Jumbo Chip Shooter (ADD PHOTOS TO THE MEW ONE)",
+        "title": "Pokémon Bandai Carddass Jumbo Chip Shooter",
         "desc": "Pokémon rapidly expanded further into experimental merchandise beyond video games. First Holo/Prism Pokémon item ever released (Mew).",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/MUWM3.png",
         "metadata": {
             "Release Date": "July-September, 1996"
         }
@@ -683,7 +727,14 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 222",
         "desc": "Many pages portraying the franchise's rapid growth across games, cards, and collectibles during 1996.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/wIksU.png",
+        "image2": "https://i.nuuls.com/CVxdc.png",
+        "image3": "https://i.nuuls.com/YJz_2.png",
+        "image4": "https://i.nuuls.com/Feg-4.png",
+        "image5": "https://i.nuuls.com/p1-Ul.png",
+        "image6": "https://i.nuuls.com/VLq7V.png",
+        "image7": "https://i.nuuls.com/N2K8k.png",
+        "image8": "https://i.nuuls.com/kUZ66.png",
         "metadata": {
             "Release Date": "September 15, 1996",
             "Cover Date": "October 15, 1996",
@@ -697,7 +748,7 @@ const timelineEvents = [
         "title": "Ivy Pikachu Glossy TCG ‘Marketing’ Card (Correct Illustrator)",
         "desc": "The first printing of a TCG Pikachu Card used for marketing imagery in CoroCoro comics.",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/C1nRb.png",
         "metadata": {
             "Production Date": "September 15, 1996"
         }
@@ -709,7 +760,8 @@ const timelineEvents = [
         "title": "Bandai Carddass Pocket Monsters Cards (Part 1 & 2)",
         "desc": "The first standard-sized Pokémon cards ever released, predating most later card products (not TCG).",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/CQCtF.png",
+        "image2": "https://i.nuuls.com/So8P2.png",
         "metadata": {
             "Release Date": "Part 1 - September 20-30, 1996, Part 2 - October 1-10, 1996"
         }
@@ -718,10 +770,11 @@ const timelineEvents = [
         "id": 55,
         "year": "1996",
         "date": "Mid-October, 1996",
-        "title": "Pokémon Kids Figures & Cards (NEW FIGURE PICTURE)",
+        "title": "Pokémon Kids Figures & Cards",
         "desc": "One of the earliest major toy lines that brought Pokémon from the screen into children’s hands (not TCG).",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/IRDoz.png",
+        "image2": "https://i.nuuls.com/CO8ne.png",
         "metadata": {
             "Release Date": "Mid-October, 1996"
         }
@@ -733,7 +786,14 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 223 (Glossy Ivy Pikachu & Jigglypuff TCG Cards)",
         "desc": "Introduced the first official Pokémon TCG promo cards ever and marked the beginning of Pokémon card collecting.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/uJrwd.png",
+        "image2": "https://i.nuuls.com/6Nf8O.png",
+        "image3": "https://i.nuuls.com/XYCuE.png",
+        "image4": "https://i.nuuls.com/jcdMI.png",
+        "image5": "https://i.nuuls.com/55Vt1.png",
+        "image6": "https://i.nuuls.com/W0XWY.png",
+        "image7": "https://i.nuuls.com/SOkx6.png",
+        "image8": "https://i.nuuls.com/zQJM4.png",
         "metadata": {
             "Release Date": "October 15, 1996",
             "Cover Date": "November 15, 1996"
@@ -746,7 +806,7 @@ const timelineEvents = [
         "title": "Pokémon TCG Base Set (No-Rarity First Print)",
         "desc": "The first Pokémon Trading Card Game set release and the foundation of the global Pokémon card hobby.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/YC3_u.png",
         "metadata": {
             "Release Date": "October 20, 1996"
         }
@@ -758,7 +818,7 @@ const timelineEvents = [
         "title": "Amada Pokémon Hyper Sticker Collection",
         "desc": "An early mass-market sticker collectible that reflects Pokémon’s explosive merchandise growth in 1996.",
         "tag": "Merchandise",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/H8FGU.png",
         "metadata": {
             "Release Date": "November 1996"
         }
@@ -770,7 +830,8 @@ const timelineEvents = [
         "title": "Pocket Monsters Bandai Gashapon Encyclopedia & Cards",
         "desc": "One of the first physical adaptations of the Pokédex, transforming Pokémon data into collectible mini booklets and accordion cards distributed through capsule machines.",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/nPyGV.png",
+        "image2": "https://i.nuuls.com/8-dlH.png",
         "metadata": {
             "Release Date": "October-November, 1996"
         }
@@ -794,7 +855,7 @@ const timelineEvents = [
         "title": "Pokémon Battle Bandai Toy",
         "desc": "One of the earliest Pokémon products to combine collectible figures with a physical battle system, adapting the game's combat mechanics into a tabletop-style toy experience.",
         "tag": "Merchandise",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/FBzpf.png",
         "metadata": {
             "Release Date": "~October-November, 1996"
         }
@@ -806,7 +867,7 @@ const timelineEvents = [
         "title": "Famitsu Bros. Vol. 4, Issue 12",
         "desc": "Includes a 16-page secret techniques/strategy guide on Pocket Monsters (Pokémon Red/Green)",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/74Fm6.png",
         "metadata": {
             "Release Date": "November, 1996",
             "Cover Date": "December, 1996"
@@ -831,7 +892,7 @@ const timelineEvents = [
         "title": "Pocket Monsters Manga/Tankoban (Reprint of first Pokemon chapter from CoroCoro)",
         "desc": "The first standalone Pokémon manga volume, preserving the franchise’s earliest manga stories from CoroCoro in book form.",
         "tag": "Manga",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/nP286.png",
         "metadata": {
             "Release Date": "Late 1996"
         }
@@ -843,7 +904,7 @@ const timelineEvents = [
         "title": "Pokémon Trainer Jumbo Card Banpresto Set",
         "desc": "Capture Pokémon’s early merchandise era, before the brand’s look was fully standardized. They show Pokémon quickly expanding beyond the Game Boy into large-format display collectibles using original game-era art and Japanese character names.",
         "tag": "Cards",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/-7h6t.png",
         "metadata": {
             "Release Date": "Late 1996"
         }
@@ -855,7 +916,7 @@ const timelineEvents = [
         "title": "Pokémon Blue (Mail-Order Exclusive)",
         "desc": "Introduced the concept of an enhanced and exclusive Pokémon version, influencing future re-releases.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/TKVqT.png",
         "metadata": {
             "Release Date": "Late 1996-1997"
         }
@@ -867,7 +928,7 @@ const timelineEvents = [
         "title": "Monthly Shōnen Gangan",
         "desc": "One of the earliest non-CoroCoro Pokémon manga publications.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/IBRwM.png",
         "metadata": {
             "Release Date": "January, 1997",
             "Cover Date": "February, 1997"
@@ -880,7 +941,7 @@ const timelineEvents = [
         "title": "CoroCoro Comic No. 228",
         "desc": "Cover Date, February 15, 1997 Contains the first images of Ash and Pikachu from the anime.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/h_9Nj.png",
         "metadata": {
             "Release Date": "January 15, 1997"
         }
@@ -892,7 +953,7 @@ const timelineEvents = [
         "title": "Second Grade Elementary School Magazine",
         "desc": "Debuts the new Pokémon Miracle World manga serial, arriving two-months before the Pokémon anime's April 1997 launch. It captures the franchise on the cusp of going from a hit game into a global phenomenon during the final pre-anime window of time.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/zJJU0.png",
         "metadata": {
             "Release Date": "February, 1997"
         }
@@ -904,7 +965,7 @@ const timelineEvents = [
         "title": "CoroCoro Bessatsu Special #106 No. 4",
         "desc": "Contains the debut of Toshihiro Ono’s manga Dengeki! Pikachu, one of the earliest and most widely recognized Pokémon manga adaptations based on the anime.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/Bj-uK.png",
         "metadata": {
             "Cover Date": "May, 1997",
             "Release Date": "April, 1997"
@@ -917,7 +978,7 @@ const timelineEvents = [
         "title": "Shogaku Yonensei (Elementary School Fourth Grade) Magazine",
         "desc": "Features the debut of the ‘Pokémon Adventures’ manga. The longest running Pokémon manga ever.",
         "tag": "Publication",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/pIwY1.png",
         "metadata": {
             "Release Date": "April, 1997"
         }
@@ -929,7 +990,7 @@ const timelineEvents = [
         "title": "Nintendo Power Vol. 98",
         "desc": "First substantial U.S. magazine feature. Feature on Pocket Monsters before the U.S. launch.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/eG6DU.png",
         "metadata": {
             "Release Date": "July, 1997"
         }
@@ -938,10 +999,10 @@ const timelineEvents = [
         "id": 73,
         "year": "1997",
         "date": "September, 1997",
-        "title": "Nakayoshi “PiPiPi” (CHANGE PIC)",
+        "title": "Nakayoshi “PiPiPi”",
         "desc": "One of the earliest Pokémon manga created specifically for a young female audience, helping expand Pokémon beyond games and shōnen media by introducing a romance- and comedy-focused interpretation of the franchise.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/w1qx8.png",
         "metadata": {
             "Release Date": "September, 1997"
         }
@@ -953,7 +1014,7 @@ const timelineEvents = [
         "title": "A Sneak Peek at Pokémon VHS",
         "desc": "Earliest known official U.S. Pokémon item. Promotional VHS released in Toys R Us. Varying stickers to indicate which local broadcast station Pokemon would debut on.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/7gjeT.png",
         "metadata": {
             "Release Date": "Summer, 1998"
         }
@@ -962,10 +1023,10 @@ const timelineEvents = [
         "id": 75,
         "year": "1998",
         "date": "August, 1998",
-        "title": "Pokémon Power Vol. 1 / Nintendo Power Vol. 111 (REMOVED ANI-MANGA INSERT, CHANGE PIC)",
+        "title": "Pokémon Power Vol. 1 / Nintendo Power Vol. 111",
         "desc": "",
         "tag": "Manga",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/1mbC8.png",
         "metadata": {
             "Release Date": "August, 1998",
             "First major dedicated U.S. Pokémon magazine insert. First issue of the six-part “Pokémon Power": "Gotta Catch 'Em All!” insert series; pre-U.S. game release."
@@ -978,7 +1039,8 @@ const timelineEvents = [
         "title": "Pokémon Red Version & Pokémon Blue Version",
         "desc": "First Pokémon games released in North America.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/yIfgu.png",
+        "image2": "https://i.nuuls.com/PzaaN.png",
         "metadata": {
             "Release Date": "September 28, 1998"
         }
@@ -990,7 +1052,7 @@ const timelineEvents = [
         "title": "Pokémon: The Electric Tale of Pikachu #1",
         "desc": "First standalone U.S. Pokémon comic by Viz Comics.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/P-Jf1.png",
         "metadata": {
             "Release Date": "November, 1998"
         }
@@ -1000,12 +1062,12 @@ const timelineEvents = [
         "year": "1998",
         "date": "November 15, 1998",
         "title": "KFC Pokémon Card Game Cards",
-        "desc": "",
+        "desc": "Early English Pokémon cards. Seven-card English non-TCG set: Ivysaur, Charizard, Pikachu, Onix, Scyther, Snorlax, and Dragonite.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/XYGok.png",
+        "image2": "https://i.nuuls.com/ezc3N.png",
         "metadata": {
             "Release Date": "November 15, 1998",
-            "Early English Pokémon cards. Seven-card English non-TCG set": "Ivysaur, Charizard, Pikachu, Onix, Scyther, Snorlax, and Dragonite."
         }
     },
     {
@@ -1013,12 +1075,11 @@ const timelineEvents = [
         "year": "1998",
         "date": "November 1998",
         "title": "KFC Pokémon Kids' Meal Toys",
-        "desc": "",
+        "desc": "Early English Pokémon toys: Treasure Keeper, Tattoos, Plushies, Water Squirter, Puzzle Blocks and Monster Matcher.",
         "tag": "Merchandise",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/m8sB5.png",
         "metadata": {
             "Release Date": "November 1998",
-            "Early English Pokémon toys": "Treasure Keeper, Tattoos, Plushies, Water Squirter, Puzzle Blocks and Monster Matcher."
         }
     },
     {
@@ -1028,7 +1089,7 @@ const timelineEvents = [
         "title": "WotC Pokémon Demo Game Pack",
         "desc": "First official English Pokémon TCG distribution. Contains specific Shadowless cards.",
         "tag": "Game",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/mqjGh.png",
         "metadata": {
             "Release Date": "December 1998"
         }
@@ -1040,7 +1101,8 @@ const timelineEvents = [
         "title": "Pokémon Song Best Collection CD English Pikachu",
         "desc": "English Pikachu Card included with a Japanese CD product. Not a U.S. release.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/R526B.png",
+        "image2": "https://i.nuuls.com/GCuPp.png",
         "metadata": {
             "Release Date": "January 1, 1999"
         }
@@ -1052,7 +1114,10 @@ const timelineEvents = [
         "title": "English Pokémon Base Set 1st Edition (ADD CHARIZARD IMAGE)",
         "desc": "First major English retail Pokémon TCG release era.",
         "tag": "Event",
-        "image": "https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png",
+        "image": "https://i.nuuls.com/H3Q0G.png",
+        "image2": "https://i.nuuls.com/knc2g.png",
+        "image3": "https://i.nuuls.com/FiKIK.png",
+        "image4": "https://i.nuuls.com/aYg1a.png",
         "metadata": {
             "Release Date": "January 9, 1999"
         }
@@ -1115,10 +1180,9 @@ function renderTimeline() {
                     ` : ''}
                     <div class="vt-event-card-col">
                         <div class="vt-card" data-index="${idx}">
-                            <span class="vt-card-icon"><img src="${ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
+                            <span class="vt-card-icon"><img src="${ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 3em; height: auto; max-height: 4em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
                             <div class="vt-card-info">
                                 <h3 class="vt-card-title">${ev.title}</h3>
-                                <span class="vt-card-tag">${ev.tag}</span>
                                 <p class="vt-card-desc">${ev.desc}</p>
                             </div>
                         </div>
@@ -1283,7 +1347,7 @@ function openModal(idx) {
             '<div class="vt-modal-grid">' +
             '<div class="vt-modal-icon-wrap" style="position: relative; perspective: 1000px;">' +
             prevBtn +
-            '<img id="vt-modal-img" src="' + window.currentModalImages[0] + '" alt="" style="width: 100%; height: auto; aspect-ratio: 2.5/3.5; object-fit: cover; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); transform-style: preserve-3d;">' +
+            '<img id="vt-modal-img" src="' + window.currentModalImages[0] + '" alt="" style="width: 100%; height: auto; max-height: 65vh; object-fit: contain; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); transform-style: preserve-3d;">' +
             nextBtn +
             '</div>' +
             '<div class="vt-modal-info">' +
