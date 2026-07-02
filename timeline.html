@@ -16,7 +16,7 @@
 <body class="timeline-page">
 
     <nav class="site-nav site-nav--solid" id="site-nav">
-        <a href="index.html" class="logo">CardBound</a>
+        <a href="index.html" class="logo"><img src="https://i.nuuls.com/76QEM.png" alt="CardBound"></a>
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="timeline.html" class="active">Timeline</a>
@@ -25,33 +25,22 @@
     </nav>
 
     <main class="vt-main">
-        <header class="vt-hero">
-            <p class="section-label">The Complete History</p>
-            <h1 class="section-heading">Pokémon Cards<br>Through Time</h1>
-        </header>
+        <div id="vt-collage" class="vt-collage"></div>
 
-        <div class="vt-container">
-            <!-- Content Container -->
-            <div id="vt-content" class="vt-content">
-                <!-- JS will inject Year Groups here -->
-            </div>
-        </div>
-
-        <section class="vt-outro">
-            <div class="section-inner" style="text-align: center;">
-                <h2 class="section-heading" style="font-size: 3rem; margin-bottom: 1rem;">Ready to go deeper?</h2>
-                <p class="section-desc" style="margin: 0 auto 2.5rem;">Watch the full documentary or grab the official
-                    coffee table book.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="index.html#watch" class="vt-btn vt-btn-primary">Watch the Doc</a>
-                    <a href="index.html#book" class="vt-btn vt-btn-ghost">Get the Book</a>
+        <div class="vt-layout">
+            <!-- Sidebar Navigation -->
+            <aside class="vt-sidebar">
+                <div class="vt-year-list-container">
+                    <div id="vt-year-list" class="vt-year-list">
+                        <!-- JS will inject years here -->
+                    </div>
                 </div>
-            </div>
-        </section>
+            </aside>
 
-        <!-- Fixed bottom HUD: year strip for quick navigation -->
-        <div class="vt-hud" id="vt-hud">
-            <div class="vt-year-nav" id="vt-year-strip"></div>
+            <!-- Main Content Area -->
+            <section id="vt-content-area" class="vt-content-area">
+                <!-- JS will inject selected year content here -->
+            </section>
         </div>
     </main>
 

@@ -85,15 +85,14 @@ const timelineEvents = [
         "image": "https://i.nuuls.com/hNMCX.png",
         "image2": "https://i.nuuls.com/WUk-E.png",
         "image3": "https://i.nuuls.com/hE4rq.png",
-        "image4": "https://i.nuuls.com/iwmjO.png",
-        "image5": "https://i.nuuls.com/IlUhu.png",
-        "image6": "https://i.nuuls.com/ad2eG.png",
-        "image7": "https://i.nuuls.com/kUdGv.png",
-        "image8": "https://i.nuuls.com/fp-yr.png",
-        "image9": "https://i.nuuls.com/zt56x.png",
-        "image10": "https://i.nuuls.com/60Zll.png",
-        "image11": "https://i.nuuls.com/sVfHi.png",
-        "image12": "https://i.nuuls.com/FtvQH.png",
+        "image4": "https://i.nuuls.com/IlUhu.png",
+        "image5": "https://i.nuuls.com/ad2eG.png",
+        "image6": "https://i.nuuls.com/kUdGv.png",
+        "image7": "https://i.nuuls.com/fp-yr.png",
+        "image8": "https://i.nuuls.com/zt56x.png",
+        "image9": "https://i.nuuls.com/60Zll.png",
+        "image10": "https://i.nuuls.com/sVfHi.png",
+        "image11": "https://i.nuuls.com/FtvQH.png",
 
 
         "metadata": {
@@ -928,7 +927,7 @@ const timelineEvents = [
         "title": "Monthly Shōnen Gangan",
         "desc": "One of the earliest non-CoroCoro Pokémon manga publications.",
         "tag": "Event",
-        "image": "https://i.nuuls.com/IBRwM.png",
+        "image": "https://i.nuuls.com/nyUFd.png",
         "metadata": {
             "Release Date": "January, 1997",
             "Cover Date": "February, 1997"
@@ -1101,8 +1100,8 @@ const timelineEvents = [
         "title": "Pokémon Song Best Collection CD English Pikachu",
         "desc": "English Pikachu Card included with a Japanese CD product. Not a U.S. release.",
         "tag": "Event",
-        "image": "https://i.nuuls.com/R526B.png",
-        "image2": "https://i.nuuls.com/GCuPp.png",
+        "image": "https://i.nuuls.com/fhsvc.png",
+        "image2": "https://i.nuuls.com/FuAOX.png",
         "metadata": {
             "Release Date": "January 1, 1999"
         }
@@ -1111,7 +1110,7 @@ const timelineEvents = [
         "id": 82,
         "year": "1999",
         "date": "January 9, 1999",
-        "title": "English Pokémon Base Set 1st Edition (ADD CHARIZARD IMAGE)",
+        "title": "English Pokémon Base Set 1st Edition",
         "desc": "First major English retail Pokémon TCG release era.",
         "tag": "Event",
         "image": "https://i.nuuls.com/H3Q0G.png",
@@ -1129,146 +1128,158 @@ const timelineEvents = [
    No JS positioning math needed. Fully CSS grid and flexbox.
    ============================================================ */
 
-let placedEvents = [];
+let placedEvents = timelineEvents; // Keep for modal reference
+let activeYear = null;
+let byYear = {};
+let sidebarYears = []; // ordered years shown in the rail, used for progress calc
 
 function renderTimeline() {
-    placedEvents = [];
-
-    // Group events by year
-    const byYear = {};
+    byYear = {};
     timelineEvents.forEach(ev => {
         if (!byYear[ev.year]) byYear[ev.year] = [];
         byYear[ev.year].push(ev);
     });
 
-    const content = document.getElementById('vt-content');
-    if (!content) return;
+    // 1. Generate Sidebar Nav (vertical progress rail)
+    const yearList = document.getElementById('vt-year-list');
+    if (yearList) {
+        const activeYears = Object.keys(byYear).map(y => parseInt(y)).sort((a, b) => a - b);
+        sidebarYears = activeYears;
 
-    let html = '';
+        let navHtml = '<div class="vt-year-rail-track"></div><div class="vt-year-rail-fill" id="vt-year-rail-fill"></div>';
+        for (const year of activeYears) {
+            navHtml += `
+                <button class="vt-year-item" id="nav-year-${year}" onclick="selectYear('${year}')">
+                    <span class="vt-year-node"></span>
+                    <span class="vt-year-text">${year}</span>
+                </button>
+            `;
+        }
+        yearList.innerHTML = navHtml;
 
-    let navHtml = '';
-
-    // Get min/max years
-    const activeYears = Object.keys(byYear).map(y => parseInt(y)).sort((a, b) => a - b);
-    const minYear = activeYears[0];
-    const maxYear = activeYears[activeYears.length - 1];
-
-    for (const year of activeYears) {
-        navHtml += `<button class="vt-year-btn" data-year="${year}">${year}</button>`;
+        // Auto-select first year
+        if (activeYears.length > 0) {
+            selectYear(activeYears[0].toString());
+        }
     }
 
-    for (let year = minYear; year <= maxYear; year++) {
-        const events = byYear[year] || [];
-        html += `
-            <div class="vt-year-section" id="year-${year}" data-year="${year}">
-                <div class="vt-year-rail">
-                    <div class="vt-year-sticky">
-                        <h2 class="vt-year-title">${year}</h2>
-                    </div>
-                </div>
-                <div class="vt-events-list">
-        `;
+    // 2. Generate Collage Background
+    const collage = document.getElementById('vt-collage');
+    if (collage) {
+        // Extract a subset of images for the collage background
+        let images = [];
+        for (const ev of timelineEvents) {
+            if (ev.image) images.push(ev.image);
+            if (images.length >= 35) break; // Limit to keep DOM light
+        }
 
-        events.forEach(ev => {
-            const idx = placedEvents.length;
-            html += `
-                <div class="vt-event-row">
-                    ${events.length > 1 ? `
-                    <div class="vt-event-date-col">
-                        <span class="vt-event-date">${ev.date}</span>
-                    </div>
-                    ` : ''}
-                    <div class="vt-event-card-col">
-                        <div class="vt-card" data-index="${idx}">
-                            <span class="vt-card-icon"><img src="${ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 3em; height: auto; max-height: 4em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
-                            <div class="vt-card-info">
-                                <h3 class="vt-card-title">${ev.title}</h3>
-                                <p class="vt-card-desc">${ev.desc}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-            placedEvents.push(ev);
+        let collageHtml = '';
+        images.forEach(src => {
+            collageHtml += `<div class="vt-collage-img" style="background-image: url('${src}')"></div>`;
         });
+        collage.innerHTML = collageHtml;
+    }
+}
 
-        html += `
+let currentEventSubIndex = 0;
+
+window.selectYear = function (year) {
+    if (activeYear !== year) {
+        activeYear = year;
+        currentEventSubIndex = 0;
+
+        // Update Sidebar UI
+        document.querySelectorAll('.vt-year-item').forEach(item => item.classList.remove('active'));
+        const activeItem = document.getElementById('nav-year-' + year);
+        if (activeItem) activeItem.classList.add('active');
+
+        // Update rail progress fill to reflect position within the year range
+        const yearList = document.getElementById('vt-year-list');
+        if (yearList && sidebarYears.length > 0) {
+            const idx = sidebarYears.indexOf(parseInt(year));
+            const progress = sidebarYears.length > 1 ? idx / (sidebarYears.length - 1) : 0;
+            yearList.style.setProperty('--rail-progress', progress.toFixed(4));
+        }
+    }
+
+    renderFeatureEvent(year, currentEventSubIndex);
+};
+
+window.nextFeatureEvent = function () {
+    const events = byYear[activeYear];
+    if (currentEventSubIndex < events.length - 1) {
+        currentEventSubIndex++;
+        renderFeatureEvent(activeYear, currentEventSubIndex);
+    }
+};
+
+window.prevFeatureEvent = function () {
+    if (currentEventSubIndex > 0) {
+        currentEventSubIndex--;
+        renderFeatureEvent(activeYear, currentEventSubIndex);
+    }
+};
+
+function renderFeatureEvent(year, subIndex) {
+    const contentArea = document.getElementById('vt-content-area');
+    const events = byYear[year];
+    if (!contentArea || !events || events.length === 0) return;
+
+    const ev = events[subIndex];
+    const idx = timelineEvents.indexOf(ev);
+    const imgSrc = ev.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png';
+
+    let paginationHtml = '';
+    if (events.length > 1) {
+        const total = events.length;
+        const current = subIndex + 1;
+        const padLen = String(total).length;
+        const pad = n => String(n).padStart(padLen, '0');
+        const fillPct = (current / total) * 100;
+
+        paginationHtml = `
+            <div class="vt-pager">
+                <button class="vt-pager-btn" onclick="prevFeatureEvent()" aria-label="Previous item" ${subIndex === 0 ? 'disabled' : ''}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+                </button>
+                <div class="vt-pager-counter">
+                    <div class="vt-pager-numbers">
+                        <span class="vt-pager-current">${pad(current)}</span>
+                        <span class="vt-pager-sep">/</span>
+                        <span class="vt-pager-total">${pad(total)}</span>
+                    </div>
+                    <div class="vt-pager-track">
+                        <div class="vt-pager-fill" style="width: ${fillPct}%;"></div>
+                    </div>
                 </div>
+                <button class="vt-pager-btn" onclick="nextFeatureEvent()" aria-label="Next item" ${subIndex === events.length - 1 ? 'disabled' : ''}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                </button>
             </div>
         `;
     }
 
-    content.innerHTML = html;
-
-    // Attach click events for cards
-    document.querySelectorAll('.vt-card').forEach(card => {
-        card.addEventListener('click', function () {
-            openModal(this.getAttribute('data-index'));
-        });
-    });
-
-    // Setup HUD Navigation
-    const yearStrip = document.getElementById('vt-year-strip');
-    if (yearStrip) {
-        yearStrip.innerHTML = navHtml;
-        document.querySelectorAll('.vt-year-btn').forEach(btn => {
-            btn.addEventListener('click', function () {
-                const year = this.getAttribute('data-year');
-                const target = document.getElementById('year-' + year);
-                if (target) {
-                    const y = target.getBoundingClientRect().top + window.scrollY - 100;
-                    window.scrollTo({ top: y, behavior: 'smooth' });
-                }
-            });
-        });
-    }
-}
-
-function updateScrollProgress() {
-    const progress = document.getElementById('vt-progress');
-    if (progress) {
-        const winHeight = window.innerHeight;
-        const docHeight = document.documentElement.scrollHeight;
-        const scrollTop = window.scrollY;
-
-        let pct = 0;
-        if (docHeight > winHeight) {
-            pct = (scrollTop / (docHeight - winHeight)) * 100;
-        }
-        progress.style.height = pct + '%';
-    }
-
-    // Highlight active year in HUD
-    const groups = document.querySelectorAll('.vt-year-section');
-    let activeYear = null;
-    const triggerPoint = window.innerHeight * 0.4; // 40% from top
-
-    groups.forEach(group => {
-        const rect = group.getBoundingClientRect();
-        if (rect.top <= triggerPoint && rect.bottom >= triggerPoint) {
-            activeYear = group.getAttribute('data-year');
-        }
-    });
-
-    if (!activeYear && groups.length > 0) {
-        // Fallback if between groups
-        activeYear = groups[0].getAttribute('data-year');
-        groups.forEach(group => {
-            if (group.getBoundingClientRect().top <= triggerPoint) {
-                activeYear = group.getAttribute('data-year');
-            }
-        });
-    }
-
-    if (activeYear) {
-        document.querySelectorAll('.vt-year-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.getAttribute('data-year') === activeYear);
-        });
-        const activeBtn = document.querySelector('.vt-year-btn.active');
-        if (activeBtn) {
-            activeBtn.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
-        }
-    }
+    contentArea.innerHTML = `
+        <div class="vt-feature-grid" style="animation: fadeUpIn 0.4s ease forwards;">
+            <div class="vt-feature-visual">
+                <img src="${imgSrc}" alt="${ev.title}" class="vt-feature-img">
+            </div>
+            <div class="vt-feature-info">
+                <div class="vt-feature-header-row">
+                    <h1 class="vt-feature-year">${year}</h1>
+                    ${paginationHtml}
+                </div>
+                <h2 class="vt-feature-title">${ev.title.toUpperCase()}</h2>
+                <p class="vt-feature-desc">${ev.desc}</p>
+                <button class="vt-btn-details" onclick="openModal(${idx})">
+                    VIEW DETAILS
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    `;
 }
 
 function openModal(idx) {
@@ -1277,86 +1288,53 @@ function openModal(idx) {
     const body = document.getElementById('vt-modal-body');
     if (!modal || !body || !ev) return;
 
-    if (ev.isGroup) {
-        let groupHtml = '';
-        ev.events.forEach(subEv => {
-            let metaRows = '';
-            if (subEv.metadata) {
-                Object.keys(subEv.metadata).forEach(function (k) {
-                    metaRows += '<li class="vt-meta-item"><span class="vt-meta-label">' + k + '</span><span class="vt-meta-value">' + subEv.metadata[k] + '</span></li>';
-                });
-            }
-            groupHtml += `
-                <div style="margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
-                    <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1rem;">
-                        <span style="font-size: 3.5rem;"><img src="${subEv.image || 'https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png'}" alt="" style="width: 2.5em; height: 3.5em; object-fit: cover; border-radius: 0.15em; box-shadow: 0 8px 20px rgba(0,0,0,0.4);"></span>
-                        <div>
-                            <h3 style="font-family: var(--font-display); font-size: 2.2rem; margin: 0.2rem 0; color: var(--text-primary);">${subEv.title}</h3>
-                        </div>
-                    </div>
-                    <p style="color: var(--text-muted); line-height: 1.7; font-size: 1.1rem; margin-bottom: 1.5rem;">${subEv.desc}</p>
-                    ${metaRows ? '<ul class="vt-modal-meta" style="margin: 0;">' + metaRows + '</ul>' : ''}
-                </div>
-            `;
+    let metaRows = '';
+    if (ev.metadata) {
+        Object.keys(ev.metadata).forEach(function (k) {
+            metaRows += '<li class="vt-meta-item"><span class="vt-meta-label">' + k + '</span><span class="vt-meta-value">' + ev.metadata[k] + '</span></li>';
         });
-        body.innerHTML = `
-            <div style="margin-bottom: 3rem; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 2rem;">
-                <h2 style="font-family: var(--font-display); font-size: 4rem; color: var(--accent-warm); line-height: 1; margin: 0;">${ev.year}</h2>
-                <p style="color: var(--text-muted); font-size: 1.2rem; margin-top: 0.5rem;">${ev.events.length} Major Events</p>
-            </div>
-            <div>
-                ${groupHtml}
-            </div>
-        `;
-    } else {
-        let metaRows = '';
-        if (ev.metadata) {
-            Object.keys(ev.metadata).forEach(function (k) {
-                metaRows += '<li class="vt-meta-item"><span class="vt-meta-label">' + k + '</span><span class="vt-meta-value">' + ev.metadata[k] + '</span></li>';
-            });
-        }
-
-        let images = [];
-        if (ev.image) images.push(ev.image);
-        else images.push('https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png');
-
-        let i = 2;
-        while (ev['image' + i]) {
-            images.push(ev['image' + i]);
-            i++;
-        }
-
-        window.currentModalImages = images;
-        window.currentModalImageIndex = 0;
-        window.isModalImageAnimating = false;
-
-        // Preload images to eliminate delay
-        images.forEach(src => {
-            const preload = new Image();
-            preload.src = src;
-        });
-
-        let nextBtn = '';
-        let prevBtn = '';
-        if (images.length > 1) {
-            nextBtn = '<button id="vt-modal-next-btn" onclick="nextModalImage()" style="position:absolute; top:50%; right:-47px; transform:translateY(-50%); width:35px; height:35px; border-radius:50%; background:#000; color:#fff; border:1px solid #fff; font-size:20px; font-weight:bold; cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.5); z-index:10; display:flex; align-items:center; justify-content:center; padding:0; line-height:1; transition: background 0.2s;">&rarr;</button>';
-            prevBtn = '<button id="vt-modal-prev-btn" onclick="prevModalImage()" style="position:absolute; top:50%; left:-47px; transform:translateY(-50%); width:35px; height:35px; border-radius:50%; background:#000; color:#fff; border:1px solid #fff; font-size:20px; font-weight:bold; cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.5); z-index:10; display:none; align-items:center; justify-content:center; padding:0; line-height:1; transition: background 0.2s;">&larr;</button>';
-        }
-
-        body.innerHTML =
-            '<div class="vt-modal-grid">' +
-            '<div class="vt-modal-icon-wrap" style="position: relative; perspective: 1000px;">' +
-            prevBtn +
-            '<img id="vt-modal-img" src="' + window.currentModalImages[0] + '" alt="" style="width: 100%; height: auto; max-height: 65vh; object-fit: contain; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); transform-style: preserve-3d;">' +
-            nextBtn +
-            '</div>' +
-            '<div class="vt-modal-info">' +
-            '<h2 class="title">' + ev.title + '</h2>' +
-            (metaRows ? '<ul class="vt-modal-meta">' + metaRows + '</ul>' : '') +
-            '<p class="desc">' + ev.desc + '</p>' +
-            '</div>' +
-            '</div>';
     }
+
+    let images = [];
+    if (ev.image) images.push(ev.image);
+    else images.push('https://file.garden/adiOU0v5YCgViiM6/Docu/placeholder.png');
+
+    let i = 2;
+    while (ev['image' + i]) {
+        images.push(ev['image' + i]);
+        i++;
+    }
+
+    window.currentModalImages = images;
+    window.currentModalImageIndex = 0;
+    window.isModalImageAnimating = false;
+
+    // Preload images so there's no delay when cycling
+    images.forEach(function (src) {
+        const preload = new Image();
+        preload.src = src;
+    });
+
+    let nextBtn = '';
+    let prevBtn = '';
+    if (images.length > 1) {
+        nextBtn = '<button id="vt-modal-next-btn" onclick="nextModalImage()" style="position:absolute; top:50%; right:-47px; transform:translateY(-50%); width:35px; height:35px; border-radius:50%; background:#000; color:#fff; border:1px solid #fff; font-size:20px; font-weight:bold; cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.5); z-index:10; display:flex; align-items:center; justify-content:center; padding:0; line-height:1; transition: background 0.2s;">&rarr;</button>';
+        prevBtn = '<button id="vt-modal-prev-btn" onclick="prevModalImage()" style="position:absolute; top:50%; left:-47px; transform:translateY(-50%); width:35px; height:35px; border-radius:50%; background:#000; color:#fff; border:1px solid #fff; font-size:20px; font-weight:bold; cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.5); z-index:10; display:none; align-items:center; justify-content:center; padding:0; line-height:1; transition: background 0.2s;">&larr;</button>';
+    }
+
+    body.innerHTML =
+        '<div class="vt-modal-grid">' +
+        '<div class="vt-modal-icon-wrap" style="position: relative; perspective: 1000px;">' +
+        prevBtn +
+        '<img id="vt-modal-img" src="' + window.currentModalImages[0] + '" alt="" style="width: 100%; height: auto; max-height: 65vh; object-fit: contain; border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.4); transform-style: preserve-3d;">' +
+        nextBtn +
+        '</div>' +
+        '<div class="vt-modal-info">' +
+        '<h2 class="title">' + ev.title + '</h2>' +
+        (metaRows ? '<ul class="vt-modal-meta">' + metaRows + '</ul>' : '') +
+        '<p class="desc">' + ev.desc + '</p>' +
+        '</div>' +
+        '</div>';
 
     modal.classList.add('open');
     modal.setAttribute('aria-hidden', 'false');
@@ -1392,43 +1370,25 @@ window.updateModalImage = function (direction = 1) {
         let outDeg = direction === 1 ? '90deg' : '-90deg';
         let inDeg = direction === 1 ? '-90deg' : '90deg';
 
-        // Flip out
         img.style.transition = 'transform 0.25s ease-in';
         img.style.transform = `rotateY(${outDeg})`;
-
-        // Ensure no backface flickering
         img.style.backfaceVisibility = 'hidden';
 
         setTimeout(() => {
             img.src = window.currentModalImages[window.currentModalImageIndex];
-
-            // Turn off transition temporarily to snap
             img.style.transition = 'none';
             img.style.transform = `rotateY(${inDeg})`;
-
-            // Force browser reflow so it registers the snap position without animating it
             void img.offsetWidth;
-
-            // Turn transition back on and flip in
             img.style.transition = 'transform 0.25s ease-out';
             img.style.transform = 'rotateY(0deg)';
 
             setTimeout(() => {
                 window.isModalImageAnimating = false;
-            }, 260); // slightly longer than 250ms to ensure completion
-        }, 250); // wait for 250ms ease-in to complete
+            }, 260);
+        }, 250);
 
-        if (window.currentModalImageIndex === 0) {
-            if (prevBtn) prevBtn.style.display = 'none';
-        } else {
-            if (prevBtn) prevBtn.style.display = 'flex';
-        }
-
-        if (window.currentModalImageIndex === window.currentModalImages.length - 1) {
-            if (nextBtn) nextBtn.style.display = 'none';
-        } else {
-            if (nextBtn) nextBtn.style.display = 'flex';
-        }
+        if (prevBtn) prevBtn.style.display = window.currentModalImageIndex === 0 ? 'none' : 'flex';
+        if (nextBtn) nextBtn.style.display = window.currentModalImageIndex === window.currentModalImages.length - 1 ? 'none' : 'flex';
     }
 };
 
@@ -1442,9 +1402,6 @@ function closeModal() {
 
 document.addEventListener('DOMContentLoaded', function () {
     renderTimeline();
-    updateScrollProgress();
-
-    window.addEventListener('scroll', updateScrollProgress, { passive: true });
 
     const closeBtn = document.getElementById('vt-modal-close');
     if (closeBtn) closeBtn.addEventListener('click', closeModal);
